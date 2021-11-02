@@ -1,0 +1,9 @@
++---+-------------------+-------------+
+|id |name               |substitutions|
++---+-------------------+-------------+
+|113|THADDEUS HAGLER    |1            |
+|304|MALIK BYSE         |1            |
+|477|MICHEL GRAZIANO    |1            |
+|485|MARIANO GOULDSBERRY|1            |
+|506|LYLE PONTO         |1            |
++---+-------------------+-------------+

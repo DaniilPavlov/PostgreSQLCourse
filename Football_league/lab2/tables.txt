@@ -1,0 +1,11 @@
+team_position
+person_status
+match_info
+match
+contract
+transfer_cost
+player
+season
+personal_data
+team
+league

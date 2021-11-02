@@ -1,0 +1,6 @@
+SELECT team.team_ as team, match.result, season.season_ as season, date FROM match JOIN team on team.id = %(team_id)s and (team2_id = team.id or team1_id = team.id ) JOIN season on season.id = %(season_id)s and match.season_id = season.id
+SELECT count(result) amount, season.season_ FROM match JOIN season on season.id = %(season_id)s WHERE match.result LIKE %(result)s and season_id = season.id group by season.season_
+SELECT name, birthday, nationality, team.team_ as team FROM personal_data JOIN team ON team_id = %(team_id)s and team.id = team_id
+SELECT personal_data.name, match_id, minute, event FROM match_info JOIN personal_data on personal_data.id = %(person)s and match_info.personal_data_id = personal_data.id
+SELECT season.season_, week, team.team_ as team, w_position, points FROM team_position JOIN team ON team_position.team_id = %(team_id)s and team.id = team_position.team_id and week = 38 JOIN season ON season_id = season.id
+SELECT player_id, season_finish, season_start FROM transfer_cost WHERE season_finish > %(cost)s and season_start > season_finish

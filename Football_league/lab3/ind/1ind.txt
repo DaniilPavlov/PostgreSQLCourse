@@ -1,0 +1,14 @@
++---+-----------------+-----------------+
+|id |name             |second_half_goals|
++---+-----------------+-----------------+
+|52 |ANTOINE WERKING  |9                |
+|299|HAYWOOD JUENGLING|10               |
+|342|ANDREW GROENEWEG |9                |
+|427|THEO RHEES       |9                |
+|428|MARGARITO TARZIA |9                |
+|537|BROOKS MANSBRIDGE|9                |
+|565|STEVEN DOMENICE  |10               |
+|584|SYDNEY SWATZELL  |9                |
+|654|MARCELO METTIG   |11               |
+|682|AUGUST KLAMERT   |9                |
++---+-----------------+-----------------+
