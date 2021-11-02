@@ -1,0 +1,4 @@
+SELECT *
+FROM contract
+WHERE fee BETWEEN 80000
+  AND  85000 and date_from BETWEEN '2017-12-01' and '2019-01-01';
